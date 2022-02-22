@@ -64,7 +64,7 @@ users = {
 # print(users["Erik"]["lottery_numbers"])
 
 # 4. Get the species of Avril's pet Monty
-print(users["Avril"]["pets"]["species"])
+print(users["Avril"]["pets"][0]["species"])
 # new_element = users["Avril"]["pets"]
 # print(users["Avril"]["pets"].get("name"))
 # print (new_element[0])
